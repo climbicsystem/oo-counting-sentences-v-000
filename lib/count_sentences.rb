@@ -19,7 +19,8 @@ class String
     split_string.select do |array_string|
       array_string != nil
     end.size
+    binding.pry
   end
 end
 
-binding.pry
+
