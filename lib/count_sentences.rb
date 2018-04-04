@@ -18,6 +18,6 @@ class String
     split_string = self.split(/[.!?]/)
     split_string.select do |array_string|
       array_string != nil
-    end.
+    end
   end
 end
